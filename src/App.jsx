@@ -16,7 +16,7 @@ function App() {
 
   return (
     <main>
-      <Button size="lg" onClick={handleClick} className="green">
+      <Button  variant='warning' size="lg" onClick={handleClick} className="green">
         <FcGoogle className='famoney' />
         {'Buy now'} 
       </Button>

@@ -47,3 +47,21 @@ button.button-large {
 .famoney{
   margin-right: 0.2rem;
 }
+
+.success{
+  color: #047857;
+  background: #ECFDF5;
+  border: 1px solid #047857
+}
+
+.warning{
+  border: 1px solid #FBBF24;
+  color: #FBBF24;
+  background: #FFFBEB;
+}
+
+.danger{
+  background: #FEF2F2;
+  border: 1px solid #F87171;
+  color: #F87171;
+}
