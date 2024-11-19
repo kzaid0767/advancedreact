@@ -40,9 +40,9 @@ button.button-large {
   padding: 30px 40px;
 }
 
-.green {
+/* .green {
   color: green;
-}
+} */
 
 .famoney{
   margin-right: 0.2rem;
@@ -64,4 +64,64 @@ button.button-large {
   background: #FEF2F2;
   border: 1px solid #F87171;
   color: #F87171;
+}
+
+.avatar {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: .3rem solid white;
+}
+
+.avatar > img {
+  width: 100%;
+}
+
+.avatar-letters {
+  background-color: var(--red);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-family: 'Karla', sans-serif;
+}
+
+.avatar-icon {
+  background-color: var(--navy);
+}
+
+.avatar > svg {
+  height: 100%;
+  width: 100%;
+  transform: translateY(20px);
+  color: whitesmoke;
+}
+
+/*
+Classes below will help with rendering random 
+background colors for the extra credit
+*/
+.navy {
+  background-color: #1F2937;
+}
+
+.pink {
+  background-color: #DA6AEC;
+}
+
+.red {
+  background-color: #F43F5E;
+}
+
+.blue {
+  background-color: #2F74DC;
+}
+
+.green {
+  background-color: #22CD90;
 }

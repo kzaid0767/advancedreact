@@ -5,6 +5,7 @@ import './App.css'
 import Button from './Button'
 import { FaMoneyBillWave } from "react-icons/fa6"
 import { FcGoogle } from "react-icons/fc"
+import Avatar from './Avatar'
 
 {/* <FaMoneyBillWave className='famoney' /> */}
 
@@ -16,10 +17,7 @@ function App() {
 
   return (
     <main>
-      <Button  variant='warning' size="lg" onClick={handleClick} className="green">
-        <FcGoogle className='famoney' />
-        {'Buy now'} 
-      </Button>
+      <Avatar/>
     </main>
   )
 }
